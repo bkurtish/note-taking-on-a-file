@@ -1,0 +1,127 @@
+body {
+	padding: 15px;
+	background-size: 100%
+}
+
+.error {
+	text-align: center;
+	font-size: 22px;
+	color:yellow;
+}
+
+.edittitle {
+	text-align: center;
+	background-color: white;
+	margin-bottom: 30px;
+}
+
+.muted {
+	text-align: center;
+}
+
+#createtitle {
+	text-align: center;
+	background-color: black;
+	color: yellow;
+}
+
+
+label,
+input, 
+textarea
+{
+	display: block;
+}
+
+input {
+	padding: 5px;
+	width:400px;
+	height: 23px;
+	
+	margin: 10px;
+	border-radius: 30px;
+}
+
+textarea {
+	padding: 11px;
+	width:600px;
+	height: 115px;
+	margin: 5px;
+	resize:none;
+	border-radius: 30px;
+	font: 13.3333px Arial;
+
+}
+
+
+
+input[type="submit"] {
+	margin-right: 10px;
+	padding: 0;	
+	width: 130px;
+	height: 30px;
+	clear: both;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+input[type="button"] {
+	margin-right: 10px;
+	padding: 0;	
+	width: 130px;
+	height: 30px;
+	clear: both;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+.create-note {
+	width:300px;
+	height:40px;
+	background-color: red;
+	color:white;
+	opacity:0.8;
+	margin-bottom: 25px;
+	border-radius: 20px;
+
+}
+
+.create-image img {
+	width:80px;
+	height:80px;
+}
+
+.new-note-created {
+	background-color: black;
+	width:37%;
+	border-radius: 25px;
+	color:white;
+}
+
+.new-note-created-body {
+	width:45%;
+	background-color: lightblue;
+	border: 3px white solid;
+	border-radius: 25px;
+	border-style: ridge;
+
+}
+
+.new-note-created-body-body {
+	max-height: 150px;
+	overflow: hidden;
+}
+
+.showallnotes a {
+	padding: 10px 20px;
+	margin-top: 15px;
+	text-align: center;
+	clear: both;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	border-radius: 15px;

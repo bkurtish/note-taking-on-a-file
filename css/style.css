@@ -1,0 +1,150 @@
+* {
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+body {
+	background-color: white;
+	margin:0px auto;
+}
+
+.page-heading {
+	border-radius: 50px;
+	border-style: ridge;
+	border:8px red text-decoration;
+	color:white;
+	text-align: center;
+	background-color:black;
+	width:37%;
+	margin: 0px auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	opacity: 0.8;
+}
+
+.new-note {
+	text-align: center;
+	margin-top: 35px;
+}
+
+.new-note a {
+	border: 1px solid red;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    background: red;
+    font-weight: bold;
+    background-image: url("../images/edit_title.png");
+    border-radius: 100px;
+    clear: both;
+    font-size: 18px;     
+}
+
+.new-note1 {
+	text-align:center;
+}
+.new-note1 a {
+	border: 1px solid red;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    background: red;
+    font-weight: bold;
+    background-image: url("../images/edit_title.png");
+    border-radius: 100px;
+    clear: both;
+    font-size: 18px;
+ }
+
+.note-container {
+	margin: 0px auto;
+	width: 600px;
+	padding:20px;
+}
+
+
+.note {
+	padding:15px;
+	position: relative;
+	margin:5px;
+	background-color: lightblue;
+	opacity: 0.9;
+	border-radius: 40px;
+	border-style: ridge;
+	border:8px red text-decoration;
+}
+
+
+.icon img {
+	height:20px;
+	width:20px;
+}
+
+.icon2 {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+
+}
+
+
+.note-title {
+	margin-top: 0;
+	margin-bottom: 3px;
+	text-align: center;
+	background-color: white;
+	border-radius: 12px;
+	padding: 3px;
+	border: 1px red dotted;  
+}
+
+.note-author {
+	margin-top: 0;
+	font-style: italic;
+	font-weight: normal;
+	text-align: center;
+}
+
+.note-body {
+	color: brown;
+    height: 53px;
+    overflow: hidden;
+
+}
+
+.note-body-full {
+	color: brown;
+	text-align: justify;
+}
+
+.note-additional-info {
+	font-style: italic;
+	font-size: 13px;
+	text-align: right;
+}
+
+.form {
+	margin: 0 auto;
+}
+
+input[type="submit"] {
+	margin-right: 10px;
+	padding: 0;	
+	width: 80px;
+	height: 30px;
+	clear: both;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+.nobutton {
+	margin-right: 10px;
+	padding: 0;	
+	width: 80px;
+	height: 30px;
+	clear: both;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	border-radius: 15px;
